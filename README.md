@@ -1,6 +1,6 @@
 # BiScatter
 
-code for BiScatter
+Demonstation code for BiScatter downlink communication
 
 ## File Structure
 Root Folder\
