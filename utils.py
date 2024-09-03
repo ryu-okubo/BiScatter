@@ -103,3 +103,14 @@ def find_closest(array1, array2):
         closest = np.argmin(np.abs(array1 - element))
         closest_elements.append(closest)
     return closest_elements
+
+def sig2db(mag_spec):
+    """signal to decibel converter
+
+    Args:
+        mag_spec (array): input signal
+
+    Returns:
+        _type_: output signal in db scale
+    """
+    return 20*np.log10(mag_spec)
